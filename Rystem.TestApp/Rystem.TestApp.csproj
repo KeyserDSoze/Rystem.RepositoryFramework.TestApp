@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rystem.RepositoryFramework.Api.Client" Version="4.1.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rystem.TestApp.Business\Rystem.TestApp.Business.csproj" />
+    <ProjectReference Include="..\Rystem.TestApp.Infrastructure.BlobStorageIntegration\Rystem.TestApp.Infrastructure.BlobStorageIntegration.csproj" />
+    <ProjectReference Include="..\Rystem.TestApp.Infrastructure\Rystem.TestApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

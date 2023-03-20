@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rystem.TestApp", "Rystem.TestApp\Rystem.TestApp.csproj", "{6C554BA8-64E1-4056-AE9B-A58EB82F1050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rystem.TestApp.Domain", "Rystem.TestApp.Domain\Rystem.TestApp.Domain.csproj", "{E81F84C4-FCF4-4F5E-81E8-EF3E568C8AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rystem.TestApp.Infrastructure", "Rystem.TestApp.Infrastructure\Rystem.TestApp.Infrastructure.csproj", "{9D05A747-FDC3-4834-97B4-B5098B852612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rystem.TestApp.Business", "Rystem.TestApp.Business\Rystem.TestApp.Business.csproj", "{AB9ED7A8-2578-4A1C-A9F4-D4DAAECF68BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rystem.TestApp.Infrastructure.BlobStorageIntegration", "Rystem.TestApp.Infrastructure.BlobStorageIntegration\Rystem.TestApp.Infrastructure.BlobStorageIntegration.csproj", "{43582573-BC5D-4350-A8CD-BDC118001CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rystem.TestApp.Api", "Rystem.TestApp.Api\Rystem.TestApp.Api.csproj", "{2970FEB4-980C-46A2-9E51-F85A23746A3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C554BA8-64E1-4056-AE9B-A58EB82F1050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C554BA8-64E1-4056-AE9B-A58EB82F1050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C554BA8-64E1-4056-AE9B-A58EB82F1050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C554BA8-64E1-4056-AE9B-A58EB82F1050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81F84C4-FCF4-4F5E-81E8-EF3E568C8AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81F84C4-FCF4-4F5E-81E8-EF3E568C8AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81F84C4-FCF4-4F5E-81E8-EF3E568C8AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81F84C4-FCF4-4F5E-81E8-EF3E568C8AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D05A747-FDC3-4834-97B4-B5098B852612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D05A747-FDC3-4834-97B4-B5098B852612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D05A747-FDC3-4834-97B4-B5098B852612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D05A747-FDC3-4834-97B4-B5098B852612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9ED7A8-2578-4A1C-A9F4-D4DAAECF68BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9ED7A8-2578-4A1C-A9F4-D4DAAECF68BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9ED7A8-2578-4A1C-A9F4-D4DAAECF68BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9ED7A8-2578-4A1C-A9F4-D4DAAECF68BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43582573-BC5D-4350-A8CD-BDC118001CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43582573-BC5D-4350-A8CD-BDC118001CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43582573-BC5D-4350-A8CD-BDC118001CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43582573-BC5D-4350-A8CD-BDC118001CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2970FEB4-980C-46A2-9E51-F85A23746A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2970FEB4-980C-46A2-9E51-F85A23746A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2970FEB4-980C-46A2-9E51-F85A23746A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2970FEB4-980C-46A2-9E51-F85A23746A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40AB1D1B-C7EF-44C0-BEAF-23588024FC68}
+	EndGlobalSection
+EndGlobal
